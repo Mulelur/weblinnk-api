@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_protifolio_react_protifolio_template_1s",
+  "info": {
+    "displayName": "React Protifolio Template 1",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "homePage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "react-portfolio-tem-1.home-page"
+    },
+    "aboutPage": {
+      "displayName": "aboutPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "react-portfolio-tem-1.about-page"
+    },
+    "contactPage": {
+      "displayName": "contactPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "react-portfolio-tem-1.contact-page"
+    }
+  }
+}

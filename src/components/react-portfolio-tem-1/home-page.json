@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_react_portfolio_tem_1_home_pages",
+  "info": {
+    "displayName": "homePage",
+    "icon": "warehouse"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "title3": {
+      "type": "text"
+    },
+    "title4": {
+      "type": "text"
+    },
+    "link1": {
+      "type": "text"
+    },
+    "link2": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

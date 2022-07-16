@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_react_portfolio_tem_1_contact_pages",
+  "info": {
+    "displayName": "contactPage",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "text"
+    }
+  }
+}
