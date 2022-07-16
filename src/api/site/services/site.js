@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * project service.
+ * site service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::project.project');
+module.exports = createCoreService('api::site.site');

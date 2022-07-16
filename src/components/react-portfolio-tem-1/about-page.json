@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_react_portfolio_tem_1_about_pages",
+  "info": {
+    "displayName": "aboutPage",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "text1": {
+      "type": "text"
+    },
+    "link1": {
+      "type": "text"
+    },
+    "link2": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "documents": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
