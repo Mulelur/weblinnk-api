@@ -15,9 +15,6 @@
     "siteName": {
       "type": "string"
     },
-    "siteId": {
-      "type": "string"
-    },
     "siteUrl": {
       "type": "string"
     },
@@ -25,24 +22,16 @@
       "type": "string"
     },
     "status": {
-      "type": "string"
-    },
-    "preView": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string",
+      "default": "draft"
     },
     "template": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::template.template",
-      "inversedBy": "sites"
+      "relation": "oneToOne",
+      "target": "api::template.template"
+    },
+    "previewUrl": {
+      "type": "text"
     }
   }
 }

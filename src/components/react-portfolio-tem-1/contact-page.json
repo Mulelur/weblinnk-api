@@ -2,24 +2,30 @@
   "collectionName": "components_react_portfolio_tem_1_contact_pages",
   "info": {
     "displayName": "contactPage",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title1": {
-      "type": "text"
+      "type": "text",
+      "default": "Title 1"
     },
     "title2": {
-      "type": "text"
+      "type": "text",
+      "default": "Title 2"
     },
     "text1": {
-      "type": "string"
+      "type": "string",
+      "default": "Text 1"
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "default": "email@gmail.com"
     },
     "phone": {
-      "type": "text"
+      "type": "text",
+      "default": "+2712345678"
     }
   }
 }

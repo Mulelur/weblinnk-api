@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "in_boxes",
+  "info": {
+    "singularName": "in-box",
+    "pluralName": "in-boxes",
+    "displayName": "in-box",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
+    }
+  }
+}

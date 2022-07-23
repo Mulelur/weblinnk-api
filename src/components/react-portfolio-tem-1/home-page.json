@@ -2,21 +2,26 @@
   "collectionName": "components_react_portfolio_tem_1_home_pages",
   "info": {
     "displayName": "homePage",
-    "icon": "warehouse"
+    "icon": "warehouse",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title1": {
-      "type": "text"
+      "type": "text",
+      "default": "Title1"
     },
     "title2": {
-      "type": "text"
+      "type": "text",
+      "default": "title2"
     },
     "title3": {
-      "type": "text"
+      "type": "text",
+      "default": "title3"
     },
     "title4": {
-      "type": "text"
+      "type": "text",
+      "default": "title4"
     },
     "link1": {
       "type": "text"
@@ -25,14 +30,15 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "template",
     "pluralName": "templates",
-    "displayName": "template"
+    "displayName": "template",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,12 +22,6 @@
       "type": "component",
       "repeatable": false,
       "component": "protifolio.react-protifolio-template-1"
-    },
-    "sites": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::site.site",
-      "mappedBy": "template"
     }
   }
 }
